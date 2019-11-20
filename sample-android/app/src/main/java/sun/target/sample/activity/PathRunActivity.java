@@ -11,14 +11,7 @@ import sun.target.R;
 import sun.target.sample.anim.PathAnimDrawable;
 import sun.target.sample.widget.DisplayUtils;
 
-
 public class PathRunActivity extends AppCompatActivity {
-    private ProgressBar pathDrawable;
-    private ProgressBar pathRun1;
-    private ProgressBar pathSpread1;
-
-    private ProgressBar pathRun2;
-    private ProgressBar pathSpread2;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -27,13 +20,13 @@ public class PathRunActivity extends AppCompatActivity {
         int stoke = DisplayUtils.dip2px(3, getResources().getDisplayMetrics());
         int color1 = Color.parseColor("#32FFFFFF");
         int endColor = Color.parseColor("#00FFFFFF");
-        pathDrawable = findViewById(R.id.pathDrawable1);
+        ProgressBar pathDrawable = findViewById(R.id.pathDrawable1);
 
-        pathRun1 = findViewById(R.id.pathRun1);
-        pathSpread1 = findViewById(R.id.pathSpread1);
+        ProgressBar pathRun1 = findViewById(R.id.pathRun1);
+        ProgressBar pathSpread1 = findViewById(R.id.pathSpread1);
 
-        pathRun2 = findViewById(R.id.pathRun2);
-        pathSpread2 = findViewById(R.id.pathSpread2);
+        ProgressBar pathRun2 = findViewById(R.id.pathRun2);
+        ProgressBar pathSpread2 = findViewById(R.id.pathSpread2);
 
         pathRun1.setIndeterminateDrawable(new PathAnimDrawable.Builder()
                 .setStokeColor(color1)
