@@ -25,13 +25,13 @@ public class GlideMultiActivity extends AppCompatActivity {
     private final String[] urls = new String[]{
             "https://img3.duitang.com/uploads/item/201605/02/20160502110219_NKXRw.thumb.700_0.jpeg"
             , "http://img3.duitang.com/uploads/item/201408/27/20140827155741_iB3SF.thumb.700_0.jpeg"
-            , "https://cdn.duitang.com/uploads/item/201412/12/20141212125544_VxziA.thumb.700_0.jpeg"
+            , "http://b-ssl.duitang.com/uploads/item/201703/26/20170326161532_aGteC.jpeg"
             , "http://cdn.duitang.com/uploads/item/201411/15/20141115192137_jRBYY.thumb.700_0.png"
-            , "http://pic1.zhimg.com/50/v2-7b7eae4072d32ea55a79b0b9f1dbcf4e_hd.jpg"
-            , "http://pic4.zhimg.com/50/v2-fe99f3e860f6a0f0eefbd2fd38ac0624_hd.jpg"
+            , "http://5b0988e595225.cdn.sohucs.com/images/20171114/0fc43e9ad58f4a5cb41a018925b0e475.jpeg"
+            , "http://pic4.zhimg.com/50/v2-e08b1459268338075ffecff0d6ec2d08_hd.jpg"
             , "http://cdn.duitang.com/uploads/item/201411/15/20141115192137_jRBYY.thumb.700_0.png"
-            , "http://pic1.zhimg.com/50/v2-7b7eae4072d32ea55a79b0b9f1dbcf4e_hd.jpg"
-            , "http://pic4.zhimg.com/50/v2-fe99f3e860f6a0f0eefbd2fd38ac0624_hd.jpg"
+            , "http://b-ssl.duitang.com/uploads/item/201804/18/20180418185826_skjbx.jpg"
+            , "http://image.biaobaiju.com/uploads/20180803/23/1533308847-sJINRfclxg.jpeg"
     };
 
     @Override
